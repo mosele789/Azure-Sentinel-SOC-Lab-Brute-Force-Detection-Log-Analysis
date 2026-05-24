@@ -50,6 +50,6 @@ A dedicated resource group was created to organize all cloud resources associate
 - Microsoft Sentinel
 - Networking Components
 
-![Azure Resource Group](images/resource-group.png)
+(images/resource-group.png)
 ![Azure Resource Group](images/resource-group.png)
 
