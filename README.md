@@ -136,3 +136,24 @@ High volumes of Event ID 4625 activity may indicate:
 - Unauthorized authentication attempts
 
 Monitoring failed authentication activity is a core responsibility of SOC analysts.
+
+# Phase 4 — Detection Engineering
+
+## Step 7 — Created Custom Detection Rule
+
+A custom detection rule was created in Microsoft Defender / Sentinel to identify excessive failed RDP login attempts.
+
+### Detection Logic
+The rule monitors authentication telemetry and generates alerts when failed login thresholds are exceeded.
+
+### MITRE ATT&CK Mapping
+- Technique: T1110 – Brute Force
+- Tactic: Credential Access
+
+### Alert Features
+- Scheduled query execution
+- Entity mapping
+- Incident correlation
+- Custom severity classification
+
+   ![Azure Resource Group](detection.png) 
