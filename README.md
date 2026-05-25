@@ -51,3 +51,20 @@ A dedicated resource group was created to organize all cloud resources associate
 - Networking Components
   
 ![Azure Resource Group](images/resource-group.png)
+
+## Step 2 — Deployed Windows Virtual Machine
+
+A Windows-based virtual machine was deployed in Microsoft Azure to simulate an enterprise endpoint generating security telemetry.
+
+### Configuration
+- Windows Operating System
+- Public IP Address
+- Remote Desktop Protocol (RDP) enabled
+- Azure networking configured for inbound access
+
+### Purpose
+The VM served as the monitored endpoint for authentication events and security log generation.
+
+![Azure Resource Group](images/vm-setup.png)
+
+![Azure Resource Group](images/resource-group.png)
