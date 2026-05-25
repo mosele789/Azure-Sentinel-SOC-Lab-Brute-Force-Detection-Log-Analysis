@@ -16,3 +16,19 @@ The project focuses on foundational SOC analyst skills including telemetry inges
 - Create custom analytics and detection rules
 - Map alerts to MITRE ATT&CK techniques
 - Gain hands-on experience with cloud-based SOC operations
+
+## Architecture
+
+Internet
+   ↓
+Azure Windows Virtual Machine
+   ↓
+Azure Monitor Agent (AMA)
+   ↓
+Log Analytics Workspace
+   ↓
+Microsoft Sentinel SIEM
+   ↓
+KQL Queries & Detection Rules
+   ↓
+Security Alerts & Incident Correlation
