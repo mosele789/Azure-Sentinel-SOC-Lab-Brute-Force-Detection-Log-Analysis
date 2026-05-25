@@ -122,3 +122,5 @@ SecurityEvent
 | where EventID == 4625
 | summarize FailedAttempts = count() by IpAddress, Account
 | order by FailedAttempts desc
+
+ ![Azure Resource Group](images/kql.png) 
