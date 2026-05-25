@@ -108,3 +108,37 @@ The Windows Security Events connector was enabled using the Azure Monitor Agent 
 This step established the telemetry pipeline required for detection engineering and log analysis.
 
  ![Azure Resource Group](images/connector.png) 
+
+# Phase 3 — Log Analysis Using KQL
+
+## Step 6 — Queried Windows Security Events
+
+Kusto Query Language (KQL) was used to investigate authentication activity within Microsoft Sentinel.
+
+### Example Query
+
+```kql
+SecurityEvent
+| where EventID == 4625
+| summarize FailedAttempts = count() by IpAddress, Account
+| order by FailedAttempts desc
+
+ ![Azure Resource Group](images/kql.png)
+
+---
+
+# Event ID Explanation
+
+```markdown
+## Understanding Event ID 4625
+
+Event ID 4625 represents a failed Windows login attempt.
+
+### Why It Matters
+High volumes of Event ID 4625 activity may indicate:
+- Password spraying
+- Credential stuffing
+- Brute-force attacks
+- Unauthorized authentication attempts
+
+Monitoring failed authentication activity is a core responsibility of SOC analysts.
