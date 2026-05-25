@@ -172,3 +172,42 @@ Entity mapping improves:
 - SOC visibility
 
 ![Azure Resource Group](images/entity-mapping.png) 
+
+# Lessons Learned
+
+This project provided hands-on experience with:
+- SIEM deployment and configuration
+- Windows security telemetry analysis
+- KQL query development
+- Authentication monitoring
+- Brute-force detection engineering
+- Cloud security operations workflows
+- MITRE ATT&CK mapping
+- Security incident visibility
+
+The lab also reinforced the importance of centralized logging and proactive threat monitoring within enterprise environments.
+
+# Skills Demonstrated
+
+- Microsoft Azure
+- Microsoft Sentinel
+- Log Analytics Workspace
+- Kusto Query Language (KQL)
+- Security Event Analysis
+- SIEM Administration
+- Detection Engineering
+- Threat Monitoring
+- Windows Security Logs
+- Incident Correlation
+- MITRE ATT&CK Framework
+
+  # Final Result
+
+Successfully built and configured a cloud-based SOC lab capable of:
+- Collecting Windows authentication telemetry
+- Monitoring failed login activity
+- Detecting brute-force authentication attempts
+- Generating security alerts
+- Correlating incidents using entity mapping
+
+This project simulates foundational SOC analyst and detection engineering workflows commonly used in enterprise security environments.
