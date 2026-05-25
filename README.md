@@ -32,3 +32,21 @@ Microsoft Sentinel SIEM
 KQL Queries & Detection Rules
    ↓
 Security Alerts & Incident Correlation
+
+# Phase 1 — Azure Environment Setup
+
+## Step 1 — Created Azure Resource Group
+
+A dedicated resource group was created to organize all cloud resources associated with the SOC lab environment.
+
+### Purpose
+- Centralized management of resources
+- Simplified deployment and cleanup
+- Improved resource visibility
+
+### Resources Included
+- Windows Virtual Machine
+- Log Analytics Workspace
+- Microsoft Sentinel
+- Networking Components
+- 
