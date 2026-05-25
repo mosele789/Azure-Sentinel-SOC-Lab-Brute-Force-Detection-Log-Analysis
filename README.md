@@ -157,3 +157,18 @@ The rule monitors authentication telemetry and generates alerts when failed logi
 - Custom severity classification
 
  ![Azure Resource Group](images/detection.png) 
+
+## Step 8 — Configured Entity Mapping
+
+Entity mapping was configured to associate alerts with:
+- Source IP addresses
+- Target hosts
+
+### Purpose
+Entity mapping improves:
+- Incident correlation
+- Threat investigations
+- Alert context
+- SOC visibility
+
+![Azure Resource Group](images/entity-mapping.png) 
