@@ -80,3 +80,16 @@ A Log Analytics Workspace was configured to collect, store, and analyze security
 - SIEM integration
 
 ![Azure Resource Group](images/log-analytics.png)
+
+## Step 4 — Enabled Microsoft Sentinel
+
+Microsoft Sentinel was deployed and connected to the Log Analytics Workspace to provide SIEM functionality including threat monitoring, analytics, and incident management.
+
+### Features Enabled
+- Security monitoring
+- Threat detection
+- Analytics rules
+- Incident correlation
+- Hunting capabilities
+
+ ![Azure Resource Group](images/sentinel-dashboard.png) 
