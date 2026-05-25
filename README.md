@@ -115,24 +115,7 @@ This step established the telemetry pipeline required for detection engineering 
 
 Kusto Query Language (KQL) was used to investigate authentication activity within Microsoft Sentinel.
 
-### Example Query
-
-```kql
-SecurityEvent
-| where EventID == 4625
-| summarize FailedAttempts = count() by IpAddress, Account
-| order by FailedAttempts desc
-
- ![Azure Resource Group](images/kql.png)
-
----
-
-# Event ID Explanation
-
-```markdown
-## Understanding Event ID 4625
-
-Event ID 4625 represents a failed Windows login attempt.
+presents a failed Windows login attempt.
 
 ### Why It Matters
 High volumes of Event ID 4625 activity may indicate:
