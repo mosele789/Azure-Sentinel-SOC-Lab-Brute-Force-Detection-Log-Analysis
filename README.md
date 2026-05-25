@@ -93,3 +93,18 @@ Microsoft Sentinel was deployed and connected to the Log Analytics Workspace to 
 - Hunting capabilities
 
  ![Azure Resource Group](images/sentinel-dashboard.png) 
+
+ ## Step 5 — Connected Windows Security Events via AMA
+
+The Windows Security Events connector was enabled using the Azure Monitor Agent (AMA) to ingest authentication telemetry from the Windows VM.
+
+### Data Collected
+- Successful logins
+- Failed login attempts
+- Account activity
+- Security audit events
+
+### Importance
+This step established the telemetry pipeline required for detection engineering and log analysis.
+
+ ![Azure Resource Group](images/connector.png) 
