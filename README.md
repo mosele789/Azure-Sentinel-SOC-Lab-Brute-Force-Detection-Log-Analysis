@@ -156,4 +156,4 @@ The rule monitors authentication telemetry and generates alerts when failed logi
 - Incident correlation
 - Custom severity classification
 
-   ![Azure Resource Group](detection.png) 
+ ![Azure Resource Group](images/detection.png) 
