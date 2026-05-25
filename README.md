@@ -109,19 +109,3 @@ This step established the telemetry pipeline required for detection engineering 
 
  ![Azure Resource Group](images/connector.png) 
 
-# Phase 3 — Log Analysis Using KQL
-
-## Step 6 — Queried Windows Security Events
-
-Kusto Query Language (KQL) was used to investigate authentication activity within Microsoft Sentinel.
-
-presents a failed Windows login attempt.
-
-### Why It Matters
-High volumes of Event ID 4625 activity may indicate:
-- Password spraying
-- Credential stuffing
-- Brute-force attacks
-- Unauthorized authentication attempts
-
-Monitoring failed authentication activity is a core responsibility of SOC analysts.
