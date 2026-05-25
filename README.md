@@ -117,7 +117,6 @@ Kusto Query Language (KQL) was used to investigate authentication activity withi
 
 ### Example Query
 
-```kql
 SecurityEvent
 | where EventID == 4625
 | summarize FailedAttempts = count() by IpAddress, Account
