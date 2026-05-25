@@ -66,5 +66,3 @@ A Windows-based virtual machine was deployed in Microsoft Azure to simulate an e
 The VM served as the monitored endpoint for authentication events and security log generation.
 
 ![Azure Resource Group](images/vm-setup.png)
-
-![Azure Resource Group](images/resource-group.png)
