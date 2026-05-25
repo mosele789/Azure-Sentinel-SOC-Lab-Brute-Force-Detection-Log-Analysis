@@ -123,3 +123,16 @@ SecurityEvent
 | order by FailedAttempts desc
 
  ![Azure Resource Group](images/kql.png) 
+
+ ## Understanding Event ID 4625
+
+Event ID 4625 represents a failed Windows login attempt.
+
+### Why It Matters
+High volumes of Event ID 4625 activity may indicate:
+- Password spraying
+- Credential stuffing
+- Brute-force attacks
+- Unauthorized authentication attempts
+
+Monitoring failed authentication activity is a core responsibility of SOC analysts.
