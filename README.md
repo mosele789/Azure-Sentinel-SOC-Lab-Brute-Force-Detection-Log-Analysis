@@ -49,4 +49,4 @@ A dedicated resource group was created to organize all cloud resources associate
 - Log Analytics Workspace
 - Microsoft Sentinel
 - Networking Components
-- 
+  
