@@ -109,3 +109,16 @@ This step established the telemetry pipeline required for detection engineering 
 
  ![Azure Resource Group](images/connector.png) 
 
+# Phase 3 — Log Analysis Using KQL
+
+## Step 6 — Queried Windows Security Events
+
+Kusto Query Language (KQL) was used to investigate authentication activity within Microsoft Sentinel.
+
+### Example Query
+
+```kql
+SecurityEvent
+| where EventID == 4625
+| summarize FailedAttempts = count() by IpAddress, Account
+| order by FailedAttempts desc
